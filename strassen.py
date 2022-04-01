@@ -40,7 +40,7 @@ def subtract(A, B):
 
 def helper(A, B):
     n = len(A)
-    if n == 65:
+    if n == 63:
         return multiply(A, B)
     if n % 2 != 0:
         new = n + 1
